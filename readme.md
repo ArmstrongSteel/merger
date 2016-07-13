@@ -18,6 +18,6 @@ Compiling:
 =====
 Run `go build` and `go install` on the project directory to build and install to your path. The path's required by go need to be setup properly.
 
-Running:
+Installing:
 =====
-You can download the releases from [the releases page](https://github.com/ArmstrongSteel/merger/releases) for your platform and install accordingly. For example, for ubuntu, you can download the `.deb` package and do `dpkg -i nameoffile.deb` to install and then you can run `merger`.
+You can download the releases from [the releases page](https://github.com/ArmstrongSteel/merger/releases) for your platform and install accordingly. For example, for Ubuntu, you can download the `.deb` package and do `dpkg -i nameoffile.deb` to install and then you can run `merger` and pass in other programs as arguments.
