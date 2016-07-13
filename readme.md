@@ -16,4 +16,8 @@ To stop a merger, run `CTRL+C`, and it will also kill all the processes that wer
 
 Compiling:
 =====
-Run `go build` and `go install` on the project directory to build and install to your path. The path's required by go need to be setup properly. You can also get a pre-built binary from the releases page.
+Run `go build` and `go install` on the project directory to build and install to your path. The path's required by go need to be setup properly.
+
+Running:
+=====
+You can download the releases from [the releases page](https://github.com/ArmstrongSteel/merger/releases) for your platform and install accordingly. For example, for ubuntu, you can download the `.deb` package and do `dpkg -i nameoffile.deb` to install and then you can run `merger`.
