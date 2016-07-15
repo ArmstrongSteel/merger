@@ -24,7 +24,7 @@ func main() {
 	for index, arg := range os.Args {
 		if index != 0 {
 			// Split the commands by a empty space so that we can pass the arguments as slices to the execCommand function
-			execCommand(strings.Split(arg, " ")...)
+			execCommand(strings.Split(arg, " "))
 		}
 	}
 
@@ -42,7 +42,7 @@ func cleanup() {
 }
 
 // Execute the command and output the stdout and stderr to the os stdout and stderr
-func execCommand(commands ...string) {
+func execCommand(commands []string) {
 	// Extract the first command as name and rest as commands (aka arguments)
 	name, commands := commands[0], commands[1:]
 	// Run commands
